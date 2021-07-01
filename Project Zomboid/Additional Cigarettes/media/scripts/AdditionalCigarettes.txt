@@ -1,0 +1,71 @@
+module ADDCIG
+{
+    imports    
+    {
+		Base
+	}
+
+	item MalboroCigarettes
+	{
+		Count						=	14,
+		HungerChange				=	0,
+		ThirstChange				=	5,
+		Weight						=	0.005,
+		RequireInHandOrInventory	=	Lighter/Matches,
+		Type						=	Food,
+		DisplayName					=	Malboro Cigarettes,
+		StressChange				=	-6,
+		UnhappyChange			    =	-5,
+		Icon						=	MalboroCigarettes,
+		CustomContextMenu			=	Smoke,
+		CantBeFrozen				=	TRUE,
+		OnEat						=	OnEat_Cigarettes,
+		StaticModel					=	Cigarette,
+		EatType						=	Cigarettes,
+		CustomEatSound =
+	}
+
+	item StrikesCigarettes
+	{
+		Count						=	16,
+		HungerChange				=	0,
+		ThirstChange				=	5,
+		Weight						=	0.005,
+		RequireInHandOrInventory	=	Lighter/Matches,
+		Type						=	Food,
+		DisplayName					=	Strikes Cigarettes,
+		StressChange				=	-6,
+		UnhappyChange			    =	-7,
+		Icon						=	StrikesCigarettes,
+		CustomContextMenu			=	Smoke,
+		CantBeFrozen				=	TRUE,
+		OnEat						=	OnEat_Cigarettes,
+		StaticModel					=	Cigarette,
+		EatType						=	Cigarettes,
+		CustomEatSound =
+	}
+
+	item WilstonCigarettes
+	{
+		Count						=	12,
+		HungerChange				=	0,
+		ThirstChange				=	3,
+		Weight						=	0.005,
+		RequireInHandOrInventory	=	Lighter/Matches,
+		Type						=	Food,
+		DisplayName					=	Wilston Cigarettes,
+		StressChange				=	-8,
+		UnhappyChange			    =	-8,
+		Icon						=	WilstonCigarettes,
+		CustomContextMenu			=	Smoke,
+		CantBeFrozen				=	TRUE,
+		OnEat						=	OnEat_Cigarettes,
+		StaticModel					=	Cigarette,
+		EatType						=	Cigarettes,
+		CustomEatSound =
+	}
+
+}
+
+
+	
