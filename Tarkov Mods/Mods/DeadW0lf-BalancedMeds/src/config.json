@@ -151,7 +151,7 @@
     "hydration": 0,
     "maxHpResource": 10,
     "hpResourceRate": 0,
-    "medUseTime": 3,
+    "medUseTime": 16,
     "healthPenaltyMin": 50,
     "healthPenaltyMax": 65
   },
